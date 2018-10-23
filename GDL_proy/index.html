@@ -5,17 +5,20 @@
         <meta name="description" content="aprendiendo HTML">
     </head>
     <body>
-        <div class="Contenerdor">
-            <header>
+
+        <!--.contenerdor-->
+        <div class="contenerdor">
+            <header role="banner">
                 <div class="Logo">
                     <img src="logo.png" alt="logo empresa">
                 </div>
-                <nav class="Navegacion">
+                <nav class="Navegacion" role="navigation">
                     Menú aqui
                 </nav>
             </header>
 
-            <main class="contenido-principal">
+            <!--contenido principal-->
+            <main class="contenido-principal" role="main">
                 <section>
                     <h2>Nuestros Cursos</h2>
                     <div>
@@ -31,7 +34,46 @@
                         <img src="img/js.jpg" height="200">
                     </div>
                 </section>
+
+                <section>
+                    <h2>Últimas Notcias</h2>
+                    <article role="article">
+                        <h3>Aprender a programar en el siglo 21 es muy importante</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci sed in? Explicabo doloribus iusto placeat autem est adipisci saepe sequi rem nesciunt? Autem, ipsam quis aliquam architecto nostrum quasi!</p>
+                    </article>
+
+                    <article role="article">
+                        <h3>Aprender a programar en el siglo 21 es muy importante</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam adipisci sed in? Explicabo doloribus iusto placeat autem est adipisci saepe sequi rem nesciunt? Autem, ipsam quis aliquam architecto nostrum quasi!</p>
+                    </article>
+                </section>
             </main>
+
+            <aside role="complementary">
+                <h2>Próximos Cursos</h2>
+                <div>
+                    <h3>PHP</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                    <h3>MySQL</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </aside>
         </div>
+
+        <footer role="contentinfo">
+            <div class="nosotros">
+                <h3>Sobre nosotros</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, pariatur dolores mollitia molestiae necessitatibus sed aliquam quis illum officia repellendus tempore reiciendis incidunt quibusdam dolore deserunt placeat? Fugit, facere itaque.</p>
+            </div>
+
+            <div class="menu">
+                <nav class="navegacion" role="navigation">
+                    menu aqui
+                </nav>
+            </div>
+            <p>Cursos de diseño web - Todos los derechos reservados &copy;</p>
+        </footer>
     </body>
 </html>
