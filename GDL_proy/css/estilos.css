@@ -1,6 +1,25 @@
-h2{
-    color:green;
-    text-transform: uppercase;
-    background-color: blanchedalmond;
+/*SELECTORES DE ID'S*/
 
+#titulo{
+    color: red;
+}
+
+#logo{
+    margin-top: 200px;
+}
+
+/*SELECTORES DE CLASES*/
+
+.rojo{
+    color: red;
+}
+
+.logo{
+    margin-top: 200px;
+}
+
+/*SELECTORES CON CLASE Y ID*/
+
+#titulo.titulo{
+    font-size: 60px;
 }
