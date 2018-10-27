@@ -23,3 +23,149 @@
 #titulo.titulo{
     font-size: 60px;
 }
+ /*SELECTORES CON 2 CLASES*/
+
+.azul.tituloCurso{
+    color:blue;
+} 
+
+/*SELECTORES CON ELEMENTOS DE HTML*/
+
+P{
+    color: brown;
+}
+
+h2{
+    color: orange;
+}
+
+h3{
+    color: green;
+}
+
+img{
+    width: 300px;
+}
+
+/*SELECTORES CON ELEMENTOS DE HTML Y ID'S*/
+
+img#logo{
+    width: 600px;
+}
+
+h2#titulo{
+    color: orange;
+}
+
+/*SELECTORES CON ELEMENTOS DE HTML Y CLASES*/
+section.section{
+    background: orange;
+}
+
+div.noticia{
+    background: white;
+}
+
+/*SELECTOR UNIVERSAL*/
+
+/*{
+    color: black!important;
+    font-size: 20px!important;
+}
+
+#listado_cursos * {
+color: red;
+}
+
+.noticias *{
+    font-size: 20px;
+}
+
+/*GRUPO DE SELECTORES*/
+h2, h3, p {
+    text-transform: uppercase;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+/*SELECCIONAR DEPENDIENTES*/
+
+nav#navegacion{
+    background-color: orange;
+}
+
+nav#navegacion ul{
+    list-style: none;
+}
+
+nav#navegacion ul li{
+    display: inline;
+}
+
+nav#navegacion ul li a{
+    color: white;
+}
+
+/*SELECTOR CON HIJOS*/
+
+section#cursos > ul{
+    border:1px solid black;
+}
+
+ul#listado-cursos > li {
+    color: red;
+}
+
+ul#listado-cursos li ul > li {
+    color: green;
+}
+
+/*SELECTOR DE ELEMENTOS ADYACENTES*/
+
+ul#listado-cursos + p{
+    background-color: red!important;
+    color: white;
+}
+
+/*SELECTOR CON ENLACES*/
+
+a[href*="facebook.com"] {
+    background-color: yellow;
+}
+
+a[href*="google.com"] {
+    background-color: purple;
+    color: white;
+}
+
+/*SELECTOR DE ATRIBUTOS*/
+
+img[id="logo"]{
+    margin-top: 0;
+}
+
+[class="section"]{
+    background-color: blue!important;
+}
+
+/*PSEUDO SELECTORES*/
+
+div.menu nav ul li a:focus,
+div.menu nav ul li a:visited,
+div.menu nav ul li a:active{
+    color: black;
+}
+
+div.menu nav ul li a:hover{
+    color: orange;
+}
+
+div.menu nav ul li:first-child a{
+    text-decoration: none;
+}
+
+h2:hover{
+    color: blueviolet!important;
+}
