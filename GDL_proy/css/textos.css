@@ -1,0 +1,76 @@
+/*FONT-FACE*/
+
+@font-face {
+    font-family: 'ostrich-regular';
+    src: url('ostrich-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+/*FONT-FAMILY*/
+body{
+    font-family: Arial, Helvetica, serif;
+}
+
+h2{
+    font: italic small-caps normal 30px/30px Verdana;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-align: left;
+}
+
+p{
+    font-family: Geneva, Helvetica, serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 40px;
+    text-align: justify;
+}
+
+a{
+    font-style: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#listado-cursos li{
+    text-transform: lowercase;
+}
+
+#listado-cursos li em {
+    font-style: normal;
+}
+
+section#introduccion p span{
+    font-style: italic;
+}
+
+section#introduccion p span{
+    font-variant: small-caps;
+}
+
+p.oferta span{
+    text-decoration: line-through;
+}
+
+div.oferta{
+    height: 80px;
+    background-color: red;
+}
+
+div.oferta h2{
+    line-height: 80px;
+}
+
+div.noticia p{
+    text-indent: 100px;
+}
+/* https://www.fontsquirrel.com/tools/webfont-generator*/
