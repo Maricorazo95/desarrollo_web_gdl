@@ -169,3 +169,29 @@ div.menu nav ul li:first-child a{
 h2:hover{
     color: blueviolet!important;
 }
+
+/*PSEUDO Y FIRST-CHILD SELECTORES*/
+
+div.menu nav ul li:nth-child(1){
+    background-color: red;
+}
+
+div.menu nav ul li:nth-child(2){
+    background-color:yellow;
+}
+
+div.menu nav ul li:nth-child(3){
+    background-color:purple;
+}
+
+div.menu nav ul li:nth-child(4){
+    background-color:blue;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: orange;
+}
+
+table tbody tr:nth-child(even){
+    background-color: purple;
+}
