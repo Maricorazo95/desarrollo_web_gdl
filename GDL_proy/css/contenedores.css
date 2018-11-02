@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+/*BACKGROUND*/
+body{
+    background: grey;
+}
+
+div.contenedor{
+    background: white;
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    overflow: hidden;
+}
+
+header{
+    background: orange;
+    margin: 0 0 30px;
+    padding: 20px 0;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+nav{
+    background: purple;
+    height: 80px;
+}
+
+table{
+    background: cyan; 
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 30%;
+}
+
+tbody tr td{
+    padding: 5px 0;
+}
+
+footer{
+    background: orange;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+footer nav{
+    background: transparent;
+}
+
+img.logocss{
+    width: 100px;
+}
+
+section#cursos{
+    width: 400px;
+    background: orange;
+    border: 40px double white;
+    float: right;
+}
+
+section#introduccion{
+    width: 400px;
+    background: yellow;
+    padding: 80px;
+}
+
+main{
+    width: 700px;
+}
+
+aside{
+    width: 300px;
+}
