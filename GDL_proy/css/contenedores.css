@@ -13,7 +13,7 @@ body{
 div.contenedor{
     background: white;
     width: 1000px;
-    margin: 20px auto 0 auto;
+    margin: 140px auto 0 auto;
     overflow: hidden;
 }
 
@@ -21,6 +21,10 @@ header{
     background: orange;
     margin: 0 0 30px;
     padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 h2{
@@ -30,6 +34,22 @@ h2{
 nav{
     background: purple;
     height: 80px;
+    margin-top  : 40px;
+    padding: 20px 0;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
 }
 
 table{
@@ -58,22 +78,51 @@ img.logocss{
 }
 
 section#cursos{
-    width: 400px;
     background: orange;
     border: 40px double white;
-    float: right;
 }
 
 section#introduccion{
-    width: 400px;
     background: yellow;
     padding: 80px;
 }
 
 main{
     width: 700px;
+    float: left;
 }
 
 aside{
     width: 300px;
+    float: right;
+}
+
+.clearfix:before,
+.clearfix:after{
+    content: '';
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+div.padre{
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+div.hijo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
 }
