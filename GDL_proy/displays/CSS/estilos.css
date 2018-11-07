@@ -43,6 +43,10 @@ h1 {
     border: 1px solid red;
 }
 
+.none h1{
+    direction: none;
+}
+
 .contenedor-flex {
     display: flex;
     flex-direction: row;
