@@ -82,6 +82,18 @@ section#cursos{
     border: 40px double white;
 }
 
+.gran-promocion{
+    display: table;
+    width: 100%;
+    background-color: yellow;
+    height: 300px;
+}
+
+.texto-promocion{
+    display: table-cell;
+    text-align: center;
+}
+
 section#introduccion{
     background: yellow;
     padding: 80px;
