@@ -92,11 +92,18 @@ section#cursos{
 .texto-promocion{
     display: table-cell;
     text-align: center;
+    vertical-align: middle;
 }
 
 section#introduccion{
+    display: none;
+    display: block;
     background: yellow;
     padding: 80px;
+    background-image: url(../img/css3.png), url(../img/html5.png);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: 400px 50px, 490px 50px;
 }
 
 main{
@@ -131,10 +138,14 @@ div.padre{
     width: 400px;
     height: 400px;
     position: relative;
+    border-radius: 20px;
 }
 
 div.hijo{
     width: 200px;
     height: 200px;
     position: absolute;
+    bottom: -100px;
+    left: 100px;
+    border-radius: 50%;
 }
