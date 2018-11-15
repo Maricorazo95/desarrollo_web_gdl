@@ -8,8 +8,16 @@ body{
     width: 1000px;
 }
 
+nav{
+    background-color: rgb(53, 53, 53);
+    background-color: hsl(13, 99%, 55%);
+    background-image: url(../img/html5.png);
+    background-repeat: no-repeat;
+}
+
 nav ul li a{
     color: purple;
+    color: hsl(0, 0%, 100%);
 }
 
 h2{
@@ -20,7 +28,40 @@ aside{
     background-color: #a1cbff;
 }
 
+div.gran-promocion{
+    background-color: rgb(161, 203, 255);
+}
+
+section#noticias{
+    background-color: rgb(242, 242, 242);
+}
+
 footer{
     background-color:#353535;
     color: white;
 }
+
+/** RGBA Y HSLA **/
+
+#noticias h2{
+    background-color: rgba(254, 74, 24, 0.7);
+    padding: 10px;
+    color: #ffffff;
+    border-bottom: 10px solid rgba(254, 73, 24, 1);
+}
+
+nav{
+    background-color: hsla(13, 98%, 55%, .5);
+}
+
+/** TEXT SHADOW Y BOX SHADOW **/
+h2{
+    text-shadow: 10px 10px 10px black;
+}
+
+ul#listado-cursos{
+    box-shadow: 2px 2px 10px 10px black;
+    box-shadow: 0px 20px 30px -20px rgba(0, 0, 0, 0.5);
+}
+
+/** DEGRADADO **/
